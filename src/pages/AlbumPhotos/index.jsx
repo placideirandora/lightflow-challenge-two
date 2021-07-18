@@ -46,11 +46,13 @@ const AlbumPhotosPage = () => {
             <PhotoCard title={album.title} thumbnailUrl={album.thumbnailUrl} />
           ))}
       </div>
-      <footer>
-        <Link to="/" class="button">
-          Back Home
-        </Link>
-      </footer>
+      {!loading && (
+        <footer>
+          <Link to="/" class="button">
+            Back Home
+          </Link>
+        </footer>
+      )}
     </div>
   );
 };
