@@ -1,0 +1,39 @@
+.page-not-found {
+  width: 100%;
+}
+
+.page-not-found .svg-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.page-not-found .svg-container img {
+  width: 500px;
+}
+
+/* RESPONSIVENESS */
+
+/* PHABLET AND MOBILE */
+
+@media screen and (max-width: 600px) {
+  .page-not-found .svg-container img {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .page-not-found .svg-container img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page-not-found .svg-container img {
+    width: 250px;
+  }
+}
