@@ -1,0 +1,15 @@
+.header .heading {
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Suez One", serif;
+}
+
+.header .sub-heading {
+  font-size: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Suez One", serif;
+  margin-top: 40px;
+  color: #006ba6;
+}

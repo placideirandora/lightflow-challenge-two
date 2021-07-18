@@ -1,9 +1,11 @@
 import React from 'react';
 
+import Header from '../../components/Header';
+
 const HomePage = () => {
     return (
         <div>
-            <h1>HOMEPAGE</h1>
+            <Header subHeading="Search Album Photos" />
         </div>
     )
 }
