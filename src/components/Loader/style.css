@@ -32,3 +32,13 @@
     transform: rotate(360deg);
   }
 }
+
+/* RESPONSIVENESS */
+
+/* MOBILE */
+
+@media screen and (max-width: 470px) {
+  .loader {
+    height: 40vh;
+  }
+}

@@ -12,3 +12,42 @@
   margin-top: 40px;
   color: #006ba6;
 }
+
+/* RESPONSIVENESS */
+
+/* TABLET */
+
+@media screen and (max-width: 780px) {
+  .header .heading {
+    font-size: 40px;
+  }
+
+  .header .sub-heading {
+    font-size: 35px;
+  }
+}
+
+/* MOBILE & PHABLET */
+
+@media screen and (max-width: 680px) {
+  .header .heading {
+    font-size: 35px;
+  }
+
+  .header .sub-heading {
+    font-size: 30px;
+  }
+}
+
+
+/* MOBILE */
+
+@media screen and (max-width: 320px) {
+  .header .heading {
+    font-size: 30px;
+  }
+
+  .header .sub-heading {
+    font-size: 25px;
+  }
+}

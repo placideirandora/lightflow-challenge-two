@@ -26,3 +26,21 @@
   text-transform: capitalize;
   margin-top: 20px;
 }
+
+/* RESPONSIVENESS */
+
+/* TABLET */
+
+@media screen and (max-width: 780px) {
+  .photo-card {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 679px) {
+  .photo-card {
+    width: 380px;
+    padding: 40px 20px;
+    margin: 20px;
+  }
+}

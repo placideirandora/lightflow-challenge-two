@@ -1,5 +1,6 @@
 .form {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   margin-top: 100px;
 }
@@ -19,4 +20,57 @@
   cursor: pointer;
   background-color: #424242;
   width: 150px;
+}
+
+/* RESPONSIVENESS */
+
+/* MOBILE & PHABLET */
+
+@media screen and (max-width: 600px) {
+  .form input {
+    width: 300px;
+  }
+
+  .form button {
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form input {
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .form button {
+    width: 80%;
+    padding: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .form {
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form input {
+    width: 80%;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .form button {
+    width: 80%;
+    padding: 16px;
+  }
 }
