@@ -6,7 +6,7 @@ import SearchForm from "../../components/SearchForm";
 const HomePage = () => {
   return (
     <div>
-      <Header subHeading="Search Album Photos" />
+      <Header subHeading="SEARCH ALBUM PHOTOS" />
       <SearchForm />
     </div>
   );
