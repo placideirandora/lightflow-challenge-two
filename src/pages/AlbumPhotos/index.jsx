@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { useParams, useHistory, Link } from "react-router-dom";
+import { useParams, useHistory } from "react-router-dom";
 
 import "./style.css";
 import Header from "../../components/Header";
 import Loader from "../../components/Loader";
 import PhotoCard from "../../components/PhotoCard";
+import Footer from "../../components/Footer";
 
 const AlbumPhotosPage = () => {
   const history = useHistory();
@@ -37,7 +38,7 @@ const AlbumPhotosPage = () => {
   }, [albumId, history]);
 
   return (
-    <div className="album-photos">
+    <div>
       <Header subHeading={`ALBUM ${albumId}'s PHOTOS`} />
       <div className="cards-container">
         {loading && <Loader />}
@@ -46,13 +47,7 @@ const AlbumPhotosPage = () => {
             <PhotoCard title={album.title} thumbnailUrl={album.thumbnailUrl} />
           ))}
       </div>
-      {!loading && (
-        <footer>
-          <Link to="/" class="button">
-            Back Home
-          </Link>
-        </footer>
-      )}
+      {!loading && <Footer />}
     </div>
   );
 };
