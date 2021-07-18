@@ -39,6 +39,11 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  .header .sub-heading {
+    margin-top: 20px;
+  }
+}
 
 /* MOBILE */
 

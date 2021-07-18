@@ -6,3 +6,13 @@
   justify-content: center;
   margin-top: 50px;
 }
+
+/* RESPONSIVENESS */
+
+/* PHABLET AND MOBILE */
+
+@media screen and (max-width: 500px) {
+  .cards-container {
+    margin-top: 30px;
+  }
+}
