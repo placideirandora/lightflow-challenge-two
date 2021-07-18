@@ -1,0 +1,22 @@
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.form input {
+  box-sizing: border-box;
+  width: 400px;
+  border: 1px solid #424242;
+  padding: 16px;
+  outline: 0;
+  font-size: 18px;
+}
+
+.form button {
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  background-color: #424242;
+  width: 150px;
+}
